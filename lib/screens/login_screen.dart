@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Flexible(
                         flex: 1,
                         child: Image.asset(
-                          'assets/firebase_logo.png',
+                          'assets/images/firebase_logo.png',
                           height: 160,
                         ),
                       ),
