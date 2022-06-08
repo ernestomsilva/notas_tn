@@ -1,6 +1,3 @@
-'package:flutter_native_splash:';
-'package:flutter_luncher_icons:';
-
 name: notas_tn
 description: A new Flutter project.
 
@@ -32,6 +29,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: 
+  flutter_luncher_icons:
+
+  flutter_native_splash:
+    color: "#3F51B5";
+    image: "assets/app/"
+    android: true
+    ios: true
+
+  flutter_icons:
+    image_patch: "assets/app/"
+    ios: true
+    remove__alpha_ios: true
+    adaptative_icon_background: "#FFFFFF"
+    adptative_icon_foreground: "assets/app/"
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -42,18 +54,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_native_splash:
-    color:"";
-    image:"assets/app/"
-    android: true
-    ios: true
 
-  flutter_icons:
-    image_patch:"assets/app/"
-    ios: true
-    remove__alpha_ios: true
-    adaptative_icon_background: "#FFFFFF"
-    adptative_icon_foreground: "assets/app/"
+  
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
