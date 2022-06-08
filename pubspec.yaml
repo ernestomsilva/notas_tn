@@ -1,3 +1,6 @@
+'package:flutter_native_splash:';
+'package:flutter_luncher_icons:';
+
 name: notas_tn
 description: A new Flutter project.
 
@@ -39,6 +42,19 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash:
+    color:"";
+    image:"assets/app/"
+    android: true
+    ios: true
+
+  flutter_icons:
+    image_patch:"assets/app/"
+    ios: true
+    remove__alpha_ios: true
+    adaptative_icon_background: "#FFFFFF"
+    adptative_icon_foreground: "assets/app/"
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
